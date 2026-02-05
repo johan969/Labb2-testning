@@ -1,10 +1,12 @@
 package se.iths.johan.labb2testning.service;
 
+import org.springframework.stereotype.Service;
 import se.iths.johan.labb2testning.component.AccountComponent;
 import se.iths.johan.labb2testning.exceptions.InsufficientFundsException;
 import se.iths.johan.labb2testning.exceptions.InvalidAmountException;
 import se.iths.johan.labb2testning.exceptions.MaxWithdrawalExceededException;
 
+@Service
 public class ATMService {
 
     private static final int maxWithdrawAmount = 1000;

@@ -1,5 +1,8 @@
 package se.iths.johan.labb2testning.component;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class AccountComponent {
 
     private int balance = 0;
